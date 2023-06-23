@@ -57,3 +57,5 @@ while True:
 
     except ValueError:
         print("solo tienes que ingresar numeros enteros.")
+    except ZeroDivisionError:
+          print("no puedes dividir por 0...")
